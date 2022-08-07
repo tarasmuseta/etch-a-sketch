@@ -39,7 +39,7 @@ function reset() {
     button.addEventListener('click', function () {
     const cells = document.querySelectorAll('.cell');
     for (let p = 0; p < slider.value * slider.value; p++) {
-        cells[p].style.backgroundColor = '#c4cbd3';
+        cells[p].style.backgroundColor = '#c9c9c9';
     }})
 }
 
